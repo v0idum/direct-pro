@@ -35,8 +35,8 @@ env/
 # Media and Static directories
 /media/
 !/media/.gitkeep
-/static/
-!/static/.gitkeep
+/staticfiles/
+!/staticfiles/.gitkeep
 # Secrets
 secrets.json
 .env

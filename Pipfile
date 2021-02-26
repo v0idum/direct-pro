@@ -11,6 +11,7 @@ django-debug-toolbar = "*"
 pillow = "*"
 channels = "*"
 environs = {version = "==8.0.0", extras = ["django"]}
+django-allauth = "*"
 
 [dev-packages]
 
