@@ -7,5 +7,3 @@ class User(AbstractUser):
     is_expert = models.BooleanField(default=False)
     balance = models.PositiveIntegerField(default=0)
     all_time_balance = models.PositiveIntegerField(default=0)
-
-
