@@ -1,4 +1,5 @@
 {% extends '_base.html' %}
+{% load socialaccount %}
 
 {% load crispy_forms_filters %}
 
@@ -11,4 +12,8 @@
         {{ form|crispy }}
         <button class="btn btn-success" type="submit">Sign Up</button>
     </form>
+    <p>Or sign in with:</p>
+    <ul>
+        <li><a href="{% provider_login_url 'google' %}">Google</a></li>
+    </ul>
 {% endblock content %}
