@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     # Local
     'core',
     'accounts',
+    'experts',
 ]
 
 MIDDLEWARE = [
